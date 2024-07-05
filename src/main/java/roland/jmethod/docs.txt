@@ -1,0 +1,19 @@
+overview:
+    just gives an overview of what classes do, you can see javadocs in the methods of the classes
+
+    TypeUtil - "static" final class that provides utility methods for working with Class and Method types
+
+    FieldAnnotationFinder - "static" final class with a method to find annotations on class fields
+
+    MethodFinder "static" final class with utility methods to find methods, like getters and setters
+
+    amh package:
+        contains a few classes, that hold getter and setters and provide methods to work with them
+        the base of all of them is AccessMethodHolder
+
+    @NotNull and @Nullable are explicitly written everywhere applicable in the jmethod package, if you dont see it, then expect null as return, that it cant take null.
+
+
+
+
+
